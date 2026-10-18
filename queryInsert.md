@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    //selecting a specific content from the table in a clean format
+    //inserting and deleting from query
  <?php
-  //inserting a new user to the table
+  //additionally you can add a delete statement by using DELETE FROM and just type the id 
   $query = "INSERT INTO russia_grocery_item (ID, product_type, product_name,
   product_brand, date_added) VALUES(?,?,?,?,?)";
 
