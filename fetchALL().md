@@ -10,7 +10,7 @@
 <body>
     //selecting everything from the table in a clean format
  <?php
- $stmt = $pdo->prepare("SELECT * FROM russia_grocery_item");
+ $stmt = $pdo->prepare("SELECT * FROM russia_grocery_item"); //you can also add "WHERE" if you want
  if ($stmt->execute()) {
      echo "<pre>";
      print_r($stmt->fetchALL());
